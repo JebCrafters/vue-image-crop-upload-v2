@@ -562,4 +562,58 @@
     -webkit-transition: opacity 1.2s ease-out, -webkit-transform 0.6s ease-out;
     transition: opacity 1.2s ease-out, -webkit-transform 0.6s ease-out;
     transition: opacity 1.2s ease-out, transform 0.6s ease-out;
-    transition: opacity 1.2s ease-out, transform 0.6s ease-out, -webkit-transform 0.6s ease-out; }
+    transition: opacity 1.2s ease-out, transform 0.6s ease-out, -webkit-transform 0.6s ease-out; 
+  }
+    .vicp-img{
+      max-width: unset !important;
+    }
+    .vue-image-crop-upload  {
+      overscroll-behavior: contain !important;
+    }
+    @media (max-width: 640px) {
+      .vicp-wrap {
+        width: 100% !important;
+        max-width: 400px;
+        height: auto !important;
+        max-height: 450px;
+        border-radius: 5px !important;
+      }
+    
+      .vicp-step2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    
+      .vicp-crop {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+      .vicp-crop-left {
+        display: block !important;
+        float: none !important;
+      }
+    
+      .vicp-crop-right {
+        display: block !important;
+        float: none !important;
+      }
+    
+      .vicp-preview {
+        height: auto !important;
+        display: flex;
+        justify-content: center;
+      }
+    
+      .vicp-preview-item {
+        display: inline-block;
+      }
+    
+      .vicp-close {
+        right: 5px !important;
+      }
+      .vue-image-crop-upload .vicp-wrap .vicp-step2 .vicp-crop .vicp-crop-left .vicp-img-container .vicp-img-shade {
+        background-color: rgb(255 255 255 / 90%) !important;
+      }
+    }
