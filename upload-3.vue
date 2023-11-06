@@ -50,9 +50,9 @@
 					</div>
 
 					<div class="vicp-range">
-						<input type="range" v-model="scale.range" step="1" min="0" max="100" @mousemove="zoomChange">
-						<i @mousedown="startZoomSub" @mouseout="endZoomSub" @mouseup="endZoomSub" class="vicp-icon5"></i>
-						<i @mousedown="startZoomAdd" @mouseout="endZoomAdd" @mouseup="endZoomAdd" class="vicp-icon6"></i>
+						<input type="range" v-model="scale.range" step="1" min="0" max="100" @mousemove="zoomChange" @touchmove="zoomChange" @touchend="zoomChange">
+						<i @mousedown="startZoomSub" @mouseout="endZoomSub" @mouseup="endZoomSub" @touchstart="startZoomSub" @touchmove="endZoomSub" @touchend="endZoomSub" class="vicp-icon5"></i>
+						<i @mousedown="startZoomAdd" @mouseout="endZoomAdd" @mouseup="endZoomAdd" @touchstart="startZoomAdd" @touchmove="endZoomAdd" @touchend="endZoomAdd" class="vicp-icon6"></i>
 					</div>
 
 					<div class="vicp-rotate" v-if="!noRotate">
