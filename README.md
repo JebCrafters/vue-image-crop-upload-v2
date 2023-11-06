@@ -1,23 +1,24 @@
-# vue-image-crop-upload
-## [中文文档](https://github.com/dai-siki/vue-image-crop-upload/blob/master/README-zh.md).
-
+# vue-image-crop-upload-v2
+# ITS RESPONSIVE MOBILE VERSION 
+## [中文文档](https://github.com/JebCrafters/vue-image-crop-upload-v2/blob/master/README-zh.md).
+# ITS RESPONSIVE MOBILE VERSION 
 A beautiful vue component for image crop and upload.
 
-**Notice**: This component is designed for pc, **not recommended for use on the mobile side**.
+**Notice**: This component is designed for pc and mobile.
 
-[![GitHub issues](https://img.shields.io/github/issues/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload/issues)
-[![GitHub forks](https://img.shields.io/github/forks/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload/network)
-[![GitHub stars](https://img.shields.io/github/stars/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload-v2/issues)
+[![GitHub forks](https://img.shields.io/github/forks/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload-v2/network)
+[![GitHub stars](https://img.shields.io/github/stars/dai-siki/vue-image-crop-upload.svg)](https://github.com/dai-siki/vue-image-crop-upload-v2/stargazers)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/dai-siki/vue-image-crop-upload.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 
 [![NPM](https://nodei.co/npm/vue-image-crop-upload.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-image-crop-upload/)
 
 ## Change log
-#### @3.0.0
+#### @3.1.12
 - Compatible vue3
 
 
-## Demo
+## Demo (old version without responsive)
 [Click me](http://dai-siki.github.io/vue-image-crop-upload/example-3/demo.html).
 
 
@@ -30,7 +31,7 @@ IE10+
 ## Install
 #### npm
 ```shell
-$ npm install vue-image-crop-upload
+$ npm install vue-image-crop-upload-v2
 ```
 
 
